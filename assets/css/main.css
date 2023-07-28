@@ -7,6 +7,44 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* #about > i{
+	font-size:50px;
+} */
+
+.my_skills_wrapper{
+	display:flex;
+	flex-direction:row;
+	/* justify-content:center;*/
+	justify-content:flex-start;
+	flex-wrap:wrap;
+	gap:2rem;
+}
+
+.tech_icon_wrapper{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	gap:1rem;
+	color:white;
+	font-size:15px;
+}
+.tech_icon_wrapper i{
+	font-size:100px;
+}
+
+.my_repo_link{
+	color:red;
+	font-weight:bold;
+	text-decoration:none;
+	cursor:pointer;
+	outline: 0;
+}
+.my_details{
+	display:flex;
+	flex-direction:column;
+	/* gap: .5rem; */
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1140,9 +1178,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
