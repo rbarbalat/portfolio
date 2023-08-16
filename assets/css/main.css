@@ -32,12 +32,13 @@
 	font-size:100px;
 }
 
-.my_repo_link{
+.my_repo_link, .my_resume_link{
 	color:red;
 	font-weight:bold;
 	text-decoration:none;
 	cursor:pointer;
 	outline: 0;
+	border-bottom:none;
 }
 .my_details{
 	display:flex;
